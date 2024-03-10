@@ -6,7 +6,7 @@ This project has open source code and data for the article titled "Asynchronous 
 
 ## Audio Accessment
 Link in OneDrive: https://1drv.ms/f/s!AilTdY3K-LzJgbdgoZZSl9-d8883ow?e=gFOias
-Place folder named "Audio" at the same level as folder "displacement".
+Place folder named "Audio" at the same level as folder "displacement". If the link has expired, send me an email to remind me.
 
 ## How to use
 - `quick_start.m` realizes the estimation and visualization of calibration results between our method and the oether method.
@@ -16,3 +16,4 @@ Place folder named "Audio" at the same level as folder "displacement".
 
 ## Details
 - The first part in `real_main` compute TDOA-S and TDOA-M based on real-world audio in folder named "audio".
+- My email: 11911918@mail.sustech.edu.cn.
