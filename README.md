@@ -17,3 +17,4 @@ Link in OneDrive: https://1drv.ms/f/s!AilTdY3K-LzJgbdgoZZSl9-d8883ow?e=gFOias. A
 ## Details
 - The first part in `real_main` compute TDOA-S and TDOA-M based on real-world audio in folder named "audio".
 - My email: 11911918@mail.sustech.edu.cn.
+- link of the paper in arxiv: https://arxiv.org/abs/2403.05791.
