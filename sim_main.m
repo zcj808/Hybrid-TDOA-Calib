@@ -2,7 +2,7 @@
 clear
 clc
 M_nums=[4,6,8,10];
-for j=1:2
+for j=1:3
     traj_id=j;
     for ii=1:4
         lim_t=2;
@@ -41,10 +41,10 @@ for j=1:2
 end
 save('sim1.mat','sim1')
 %% Simulation under various initial value noises (Part B)
-clear
-clc
-init_noise=[0,1,2,3;0,2,4,6];
-for j=1:2
+
+clcclear
+init_noise=[0,1,2,3;0,2,4,6;0,2,4,6];
+for j=1:3
     traj_id=j;
     for ii=1:4
         lim_t=2;
@@ -87,7 +87,7 @@ clear
 clc
 noises=[5e-5,1e-4,5e-4];
 lim_t=2;
-for j=1:2
+for j=1:3
     traj_id=j;
     for ii=1:3
         su_err=[];
