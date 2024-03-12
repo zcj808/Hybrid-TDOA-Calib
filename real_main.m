@@ -67,7 +67,7 @@ for ii=1:4
         ori_g=g_list(i);
         total_t=tic;
         while toc(total_t)<lim_t
-            g = init_generation1(ori_g,3);
+            g = init_generation1(ori_g,4);
             [g,norm_dk,value_f] = GN_Solver(g,i,lim_t);
             if norm_dk<g.dk_p || value_f<g.f_p
                 my_su_err=[my_su_err;[g.rec,toc(total_t)]];
@@ -78,7 +78,7 @@ for ii=1:4
 
         total_t=tic;
         while toc(total_t)<lim_t
-            g = init_generation1(ori_g,3);
+            g = init_generation1(ori_g,4);
             sg=sg_generation(g);
             [sg,norm_dk,value_f] = GN_Solver(sg,i,lim_t);
             if norm_dk<sg.dk_p || value_f<sg.f_p
@@ -188,7 +188,7 @@ for ii=1:5
         ori_g=g_list(i);
         total_t=tic;
         while toc(total_t)<lim_t
-            g = init_generation1(ori_g,3);
+            g = init_generation1(ori_g,4);
             [g,norm_dk,value_f] = GN_Solver(g,i,lim_t);
             if norm_dk<g.dk_p || value_f<g.f_p
                 my_su_err=[my_su_err;[g.rec,toc(total_t)]];
@@ -199,7 +199,7 @@ for ii=1:5
 
         total_t=tic;
         while toc(total_t)<lim_t
-            g = init_generation1(ori_g,3);
+            g = init_generation1(ori_g,4);
             sg=sg_generation(g);
             [sg,norm_dk,value_f] = GN_Solver(sg,i,lim_t);
             if norm_dk<sg.dk_p || value_f<sg.f_p
